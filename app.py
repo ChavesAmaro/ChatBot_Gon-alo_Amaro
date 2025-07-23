@@ -26,6 +26,9 @@ def obter_resposta(texto: str) -> str:
         ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
         'como estás': 'Estou bem, obrigado!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
+        'tempo': 'Está um dia de sol!',
+        'qual é o teu estilo de música favorito': 'Música eletrónica!',
+        'gostas de tecnologia': 'Claro!'
         }
     
     if 'horas' in comando:
